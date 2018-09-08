@@ -1,0 +1,358 @@
+/* body {
+    background: lightgrey;
+}
+
+#wrapper {
+    width: 800px;
+    height: 2395px;
+    background: grey;
+}
+
+.konten {
+    padding-top: 15px;
+    display: grid;
+    max-width: 770px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: ". area1 area1"". area1 area1"". . ."". . .""area5 area5 .""area5 area5 ."". . ."". area7 area7"". area7 area7";
+}
+
+.konten div img {
+    width: 250px;
+    height: 250px;
+}
+
+#t1 {
+    grid-area: area1;
+    width: 510px;
+    height: 515px;
+}
+
+#t13 {
+    grid-area: area5;
+    width: 510px;
+    height: 515px;
+}
+
+#t8 {
+    grid-area: area7;
+    width: 510px;
+    height: 515px;
+}
+
+#footer {
+    margin-top: -20px;
+    width: 800px;
+    height: 30px;
+    background: lightslategrey;
+}
+
+.konten div img {
+    filter: sepia(50%);
+}
+
+.konten div img:hover {
+    filter: sepia(0%);
+    transition: 0.1s;
+    transform: scale(1.0, 1);
+}
+
+#footer p {
+    padding-top: 5px;
+} */
+
+body {
+    background: lightgrey;
+}
+
+@media screen and (min-width:800px) {
+    #menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 800px;
+        height: 50px;
+        background: lightslategrey;
+    }
+    #menu p {
+        font-size: 20px;
+        margin-top: 10px;
+        color: black
+    }
+    #menu a {
+        text-decoration: none;
+    }
+    #menu :hover {
+        font-family: Sigmar One;
+        background: rgb(173, 1, 1);
+        max-height: 50px;
+    }
+    #nazi {
+        width: 600px;
+        height: 200px;
+        margin-bottom: -40px;
+        border-radius: 200px;
+    }
+    #judul {
+        font-family: Sigmar One;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    #wrapper {
+        width: 800px;
+        height: auto;
+        background: grey;
+    }
+    .konten {
+        padding-top: 15px;
+        display: grid;
+        max-width: 770px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 12px;
+        grid-template-areas: ". area1 area1"". area1 area1"". . ."". . .""area5 area5 .""area5 area5 ."". . ."". area7 area7"". area7 area7";
+    }
+    .konten div img {
+        width: 250px;
+        height: 250px;
+    }
+    #t1 {
+        grid-area: area1;
+        width: 510px;
+        height: 515px;
+    }
+    #t13 {
+        grid-area: area5;
+        width: 510px;
+        height: 515px;
+    }
+    #t8 {
+        grid-area: area7;
+        width: 510px;
+        height: 515px;
+    }
+    #footer {
+        margin-top: -20px;
+        width: 800px;
+        height: 30px;
+        background: lightslategrey;
+    }
+    .konten div img {
+        filter: sepia(50%);
+    }
+    .konten div img:hover {
+        filter: sepia(0%);
+        transition: 0.5s;
+        transform: scale(1.035, 1.035);
+    }
+    #footer p {
+        padding-top: 5px;
+        font-family: Sigmar One;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 550px;
+        height: 40px;
+        background: lightslategrey;
+    }
+    #menu p {
+        font-size: 15px;
+        margin-top: 10px;
+        color: black
+    }
+    #menu a {
+        text-decoration: none;
+    }
+    #menu :hover {
+        font-family: Sigmar One;
+        background: rgb(173, 1, 1);
+        max-height: 40px;
+    }
+    #nazi {
+        width: 300px;
+        height: 150px;
+        margin-bottom: -20px;
+        border-radius: 100px;
+    }
+    #judul {
+        font-family: Sigmar One;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #wrapper {
+        width: 550px;
+        height: auto;
+        background: grey;
+    }
+    .konten {
+        padding-left: 10px;
+        padding-top: 15px;
+        display: grid;
+        max-width: 570px;
+        grid-template-columns: repeat(2, 0.49fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 0px;
+    }
+    .konten div img {
+        width: 250px;
+        height: 250px;
+    }
+    #footer {
+        margin-top: -20px;
+        width: 550px;
+        height: 30px;
+        background: lightslategrey;
+    }
+    .konten div img {
+        filter: sepia(50%);
+    }
+    .konten div img:hover {
+        filter: sepia(0%);
+        transition: 0.1s;
+        transform: scale(1.0, 1);
+    }
+    .konten div img:hover {
+        filter: sepia(0%);
+        transition: 0.5s;
+        transform: scale(1.035, 1.035);
+    }
+    #footer p {
+        padding-top: 5px;
+        font-family: Sigmar One;
+    }
+}
+
+
+/*-------------------------- End of Gallery--------------------------------------- */
+
+@media screen and (min-width:800px) {
+    #wrapper1 {
+        width: 800px;
+        height: auto;
+        background: grey;
+        margin-top: -25px;
+    }
+    #judul1 {
+        padding-top: 20px;
+    }
+    #home1 {
+        width: 750px;
+        margin-bottom: -5px;
+    }
+    #home1:hover {
+        transition: 0.5s;
+        transform: scale(0.95, 0.95);
+    }
+    #artikel {
+        width: 750px;
+        text-align: justify;
+        text-indent: 0.4in;
+        padding-bottom: 10px;
+    }
+    #sm {
+        margin-left: -570px;
+        padding-top: -5000px;
+    }
+    #sumber {
+        margin-left: 700px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #wrapper1 {
+        width: 550px;
+        height: auto;
+        background: grey;
+        margin-top: -13px;
+    }
+    #judul1 {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    #home1 {
+        width: 500px;
+        margin-bottom: -5px;
+    }
+    #home1:hover {
+        transition: 0.5s;
+        transform: scale(0.95, 0.95);
+    }
+    #artikel {
+        width: 500px;
+        text-align: justify;
+        text-indent: 0.4in;
+        padding-bottom: 10px;
+    }
+    #sm {
+        margin-left: -320px;
+    }
+    #sumber {
+        margin-left: 450px;
+    }
+}
+
+
+/* -----------------End of Home-------------------------- */
+
+@media screen and (min-width:800px) {
+    #phone {
+        width: 750px;
+    }
+    #phone:hover {}
+    #nama,
+    #email,
+    #call {
+        width: 350px;
+        height: 30px;
+        font-size: 20px;
+    }
+    #alamat {
+        width: 350px;
+        height: 150px;
+        font-size: 20px;
+    }
+    #submit {
+        width: 100px;
+        font-size: 20px;
+        margin-left: -255px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    #fill {
+        font-size: 30px
+    }
+}
+
+@media screen and (max-width:800px) {
+    #phone {
+        width: 500px;
+    }
+    #nama,
+    #email,
+    #call {
+        width: 200px;
+        height: 25px;
+        font-size: 13px;
+    }
+    #alamat {
+        width: 200px;
+        height: 150px;
+        font-size: 20px;
+    }
+    #submit {
+        width: 80px;
+        font-size: 20px;
+        margin-left: -125px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    #fill {
+        font-size: 25px
+    }
+}
+
+
+}
